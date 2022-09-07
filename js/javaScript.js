@@ -121,12 +121,6 @@ function cambiarLaCantidad (event) {
 
 function botonDeComprar() {
     carrito.innerHTML = ""
-    Toastify({
-        text: "Gracias por tu compra, pronto recibiras tu pedido.",
-        close: true,
-        duration: 3000,
-        position: "left"
-    }).showToast()
     actualizarTotal();
 }
 
