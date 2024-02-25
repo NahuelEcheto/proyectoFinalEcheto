@@ -196,10 +196,22 @@ main {
                 border-radius: 5px;
                 padding: 2px;
             }
-            .boton-registro {
-                width: 6rem;
-            }
+
             #submit {
+                background-color: #990000;
+                border: #990000;
+                color: white;
+                font-weight: 500;
+                border-radius: 5px;
+                margin-top: 10px;
+                padding: 8px;
+                transition: 1s;
+                &:hover {
+                    background-color: #FACC15;
+                    color: #990000;
+                }
+            }
+            .boton-volver {
                 background-color: #990000;
                 border: #990000;
                 color: white;

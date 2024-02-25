@@ -215,9 +215,6 @@ main .contenedor-comentarios .contenedor .cada-comentario .parrafo-comentario {
   border-radius: 5px;
   padding: 2px;
 }
-#main-contacto .registro #formulario-registro .boton-registro {
-  width: 6rem;
-}
 #main-contacto .registro #formulario-registro #submit {
   background-color: #990000;
   border: #990000;
@@ -229,6 +226,20 @@ main .contenedor-comentarios .contenedor .cada-comentario .parrafo-comentario {
   transition: 1s;
 }
 #main-contacto .registro #formulario-registro #submit:hover {
+  background-color: #FACC15;
+  color: #990000;
+}
+#main-contacto .registro #formulario-registro .boton-volver {
+  background-color: #990000;
+  border: #990000;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 8px;
+  transition: 1s;
+}
+#main-contacto .registro #formulario-registro .boton-volver:hover {
   background-color: #FACC15;
   color: #990000;
 }
