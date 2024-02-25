@@ -15,6 +15,8 @@ function verProductos(array) {
 
 verProductos(productos);
 
+let comentario = []
+
 
 
 
