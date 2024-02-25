@@ -9,7 +9,7 @@ const registrado = document.querySelector("#registrado");
 
 
 let clientes = []
-let cliente = []
+
 
 class ClienteNuevo {
     constructor(nombre, apellido, email, direccion){
